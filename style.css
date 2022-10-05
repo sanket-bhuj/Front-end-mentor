@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+
+
+
+}
+
+.container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+.box {
+    height: 400px;
+    width: 250px;
+    background: white;
+    padding: 0.6rem 0.6rem;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+.box h1 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    margin: 1rem 0;
+
+}
+
+.box p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%)
+}
+
+.box img {
+    height: auto;
+    width: 100%;
+    border-radius: 0.5em;
+
+}
